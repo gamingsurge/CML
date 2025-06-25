@@ -103,12 +103,6 @@ sudo ip route add default via 10.0.X.1 dev eth0
 
 ## 📊 Diagram
 
-*Included separately in **`ipsec_lab.drawio`*
-
-- Red Networks = Trusted/Internal
-- Black Transport = Untrusted/Encrypted
-- Simulated TACLANE function via IPsec
-
 ---
 
 ## 📘 Notes
@@ -127,10 +121,4 @@ show crypto ipsec sa
 show access-lists
 ping <remote internal IP>
 ```
-
----
-
-## 🙌 Credits
-
-Created by Sergio Cuevas in CML as a self-built simulation to understand encrypted site-to-site communication.
 
